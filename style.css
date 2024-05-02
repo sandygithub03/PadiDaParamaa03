@@ -1,0 +1,164 @@
+*{
+    padding: 0%;
+    margin: 0px;
+    border-radius: 10px;
+    
+}
+
+body{ 
+    font-family: "Poppins", sans-serif;
+
+}
+
+.navbar{
+    padding: 20px;
+display: flex;
+justify-content: space-between;
+border: solid black 1px;
+gap: 10px;
+align-items: center;
+border-radius: 0px;
+}
+
+.navbar__s1__title{
+    color: #A435F0;
+}
+
+.navbar__s2{
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 40%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.navbar__s2 input{
+    border: none;
+    font-size: 16px;
+    width: 100%;
+}
+
+.navbar__s2 input:focus{
+    outline: none;
+}
+
+.navbar__s3{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.categories{
+    display: flex;
+    padding: 12px;
+    border-bottom:solid black 1px;
+    border-radius: 0px;
+    justify-content: space-around ;
+}
+
+.categories :hover{
+    background-color: white;
+    color: #A435F0;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.categories p{
+background-color: #A435F0;
+padding: 10px;
+color: whitesmoke;
+border-radius: 30px;
+    
+}
+
+.recommended{
+    padding: 20px;
+}
+
+.recommended__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.course-card{
+    width: 280px;
+}
+
+.course-card img{
+    height: 50%;
+    width: 100%;
+}
+
+.topics{
+    padding: 10px;
+}
+
+.topics__container{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.topics__container p{
+    border: solid gray 2px;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 25%;
+    
+}
+
+.popular{
+    padding: 10px;
+}
+
+.popular__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px; 
+}
+
+.footer{
+    padding: 10px;
+    background-color: black;
+    color: wheat;
+}
+
+.footer__one{
+    display: flex;
+    gap: 20px;
+}
+
+.footer__one p{
+    margin-top: 20px; 
+}
+
+.footer__two{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
+}
+
+.topics__container p:hover{
+      background-color: darkorchid;
+      color: azure;
+      cursor: pointer;
+      transition: 0.5s;
+      box-shadow: black 20px;
+}
+
+.navbar__s3 p:hover{
+    text-decoration: black underline;
+    cursor: pointer;
+}
+
+.navbar__s3 i:hover{
+    text-decoration: black 2px underline;
+    cursor: pointer;
+}
